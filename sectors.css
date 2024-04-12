@@ -1,0 +1,98 @@
+body {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(20, 40, 30);
+}  
+
+header {
+    text-align: center;
+    background-color: lightgrey;
+    color: black;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+h1 {
+    display: inline-block;
+    border-style: solid;
+    width: 280px;
+    padding: 5px;
+
+}
+
+div.linkit {
+    margin: auto;
+    width: 150px;
+    background-color: white;
+    color: white;
+    padding: 10px;
+    
+}
+
+nav {
+    text-align: center;
+    background-color: black;
+    color: white;
+
+}
+
+nav.sidebar {
+    background-color: darkgray;
+    float: left;
+    width: 35%;
+}
+
+h2 {
+    font-size: 40px;
+    color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+section {
+    text-align: center;
+    background-color: lightgrey;
+    color: black;
+    font-size: 25px;
+}
+
+ul.list {
+    display: inline-block;
+    text-align: left;
+}
+
+ol.list {
+    display: inline-block;
+    text-align: left;
+}
+
+div.rajat {
+    display: inline-block;
+    text-align: center;
+}
+
+a:link, a:visited {
+    background-color: rgb(128, 64 , 0);
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 10px;
+  }
+  
+  a:hover, a:active {
+    background-color: rgb(128, 128, 255);
+  }
+
+  footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(180, 80, 50);
+    color: white;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 2px;
+  }
