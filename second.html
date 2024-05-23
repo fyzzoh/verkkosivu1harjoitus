@@ -1,63 +1,147 @@
 <!DOCTYPE html>
-<html>
+<html lang="fi">
 
 <head>
     <meta charset="UTF-8">
-    <title>Toinen sivu</title>
-    <link rel="stylesheet" href="second.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Meikäläisen verkkosivut</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link rel="stylesheet" href="sectors.css">
 </head>
 
 <body>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
     <header>
+
     <BR>
-    <h1>Tylsä sivu</h1>
+    <h1>Lauri Nikko</h1>
+    <BR>
     <BR>
 
     </header>
+    
+    <div class="topnav">
+        <nav class="navbar navbar-expand-lg">
 
-    <nav>
+            <ul>
+              <li><a href="index.html">Etusivu</a></li>
+              <li><a href="second.html">Yleistä</a></li>
+              <li><a href="third.html">Tulevaisuus</a></li>
+              <li><a href="fourth.html">Minä muualla</a></li>
+            </ul>
 
-        <BR>
-                <div class="linkit">
-                <a href="index.html">Etusivu</a>
-                <br><br>
-                <a href="second.html">Toinen Sivu</a>
-                <br><br>
-                <a href="third.html">Kolmas sivu</a>
-                </div>
-            <BR><BR>
+        </nav>
+    </div>
 
-    </nav>
+    <section>
+        <br>
+        <h2>Yleistä</h2>
+        <p>Mielenkiinnon kohteet:</p>
+    <BR>
 
-<section>
-
-
-        <div class="eikiinnosta">
-        <p>Mua ei vieläkään kiinnosta sun päivän kulku</p>
+    <div class="row py-3 px-5 align-items-center justify-content-center">
+      <div class="col-lg-4 justify-content-center">
+        <div class="teksti">
+            <p>Suosikki-/eniten pelatuimmat videopelini</p>
         </div>
-    <BR><BR>
+
+        <table class="table table-striped">
+            <tbody>
+                <tr>
+                    <td>Counter-Strike 2 (CS:GO)</td>
+                </tr>
+                <tr>
+                    <td>Skate 3</td>
+                </tr>
+                <tr>
+                    <td>GTA V</td>
+                </tr>
+                <tr>
+                    <td>Minecraft</td>
+                </tr>
+                <tr>
+                    <td>Geometry Dash</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+
+    <div class="col-lg-4 justify-content-center">
+      <div class="teksti">
+          <p>Vapaa-ajan puuhastelut</p>
+      </div>
+
+      <table class="table table-striped">
+          <tbody>
+              <tr>
+                  <td>Musiikin tekeminen (tuottaminen ja äänittäminen sekä jälkikäsittely)</td>
+              </tr>
+              <tr>
+                  <td>Kuntosalilla käyminen</td>
+              </tr>
+              <tr>
+                  <td>Videoeditointi</td>
+              </tr>
+              <tr>
+                  <td>Asioiden suunnittelu ja visiointi</td>
+              </tr>
+              <tr>
+                  <td>Tiedon hankkiminen satunnaisista asioista</td>
+              </tr>
+          </tbody>
+      </table>
+  </div>
+
+
+  <div class="col-lg-4 justify-content-center">
+    <div class="teksti">
+        <p>Mielenkiinnon kohteet</p>
+    </div>
+
+    <table class="table table-striped">
+        <tbody>
+            <tr>
+                <td>Videopelit (kehittäminen sekä pelaaminen)</td>
+            </tr>
+            <tr>
+                <td>Musiikki (kuunteleminen sekä tekeminen)</td>
+            </tr>
+            <tr>
+                <td>Visuaalinen taide (kuvat ja videot)</td>
+            </tr>
+            <tr>
+                <td>Tietotekniikka</td>
+            </tr>
+            <tr>
+                <td>Kaikki mikä kiinnostaa</td>
+            </tr>
+        </tbody>
+    </table>
+  </div>
+</div>
 
 
 
-    <figure>
-        <img src="pizza.jpg" alt="Nami pizza" width="250px">
-        <figcaption>NAMI PIZZA :]</figcaption>
-    </figure>
-
-
-    <BR><BR><BR>
-        <label for="file">Deadlinen määrä kun alotin tekemään tehtävää</label>
-        <BR>
-        <progress id="file" value="99" max="100"> 99% </progress>
-        <BR><BR><BR>
-
+      <div class="row">
+        <div class="column">
+          <img src="cs2.jpg" alt="CS2" style="width:100%">
+        </div>
+        <div class="column">
+          <img src="flstudio.jpg" alt="FLSTUDIO" style="width:100%">
+        </div>
+        <div class="column">
+          <img src="premiere.png" alt="ADOBE PREMIERE" style="width:100%">
+        </div>
+      </div>
+<br>
     </section>
 
-    <footer>
-        <h3>LAURINIKKO HARJOITUS KAIKKI OIKEUDET VAPAUTETAAN EIKUN MITEN SE MENIKÄÄN PIDÄTETÄÄN</h3>
-    </footer>
 
+
+
+    
 </body>
-
 </html>

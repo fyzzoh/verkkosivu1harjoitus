@@ -1,41 +1,58 @@
 body {
-    width: 90%;
+    width: 100%;
     margin-left: auto;
     margin-right: auto;
-    background-color: rgb(20, 40, 30);
+    background-color: #141414;
 }  
 
 header {
     text-align: center;
-    background-color: lightgrey;
+    background-color: #141414;
     color: black;
     font-size: 20px;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'Trebuchet MS', sans-serif;
+    top: 0;
+    width: 100%;
+    margin: 0;
+    height:100px;
+    left: 0px;
+    margin-left: 0;   
 }
 
 h1 {
     display: inline-block;
-    border-style: solid;
-    width: 280px;
-    padding: 5px;
+    color: #DCE4EA;
+
 
 }
 
-div.linkit {
-    margin: auto;
-    width: 150px;
-    background-color: white;
-    color: white;
-    padding: 10px;
-    
+topnav {
+    position: relative;
+    background-color: #333;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
 }
 
 nav {
     text-align: center;
     background-color: black;
     color: white;
-
+    margin: auto;
 }
+ul {
+    list-style-type: none;
+    margin: auto;
+    padding: 0;
+}
+
+
+li {
+    display: inline;
+    display: inline-block;
+    margin: auto;
+}
+
 
 nav.sidebar {
     background-color: darkgray;
@@ -44,7 +61,7 @@ nav.sidebar {
 }
 
 h2 {
-    font-size: 40px;
+    font-size: 65px;
     color: black;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
@@ -56,43 +73,31 @@ section {
     font-size: 25px;
 }
 
-ul.list {
-    display: inline-block;
-    text-align: left;
+.column {
+    margin: auto;
+    width: 20%;
+    padding: 5px;
 }
 
-ol.list {
-    display: inline-block;
-    text-align: left;
-}
-
-div.rajat {
-    display: inline-block;
-    text-align: center;
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
 }
 
 a:link, a:visited {
-    background-color: rgb(128, 64 , 0);
-    color: white;
+    border-style: solid;
+    border-color: rgb(37, 74, 83);
+    border-radius: 2px;
+    color: #DCE4EA;
     padding: 14px 25px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    border-radius: 10px;
+    background-color: black;
+
   }
   
   a:hover, a:active {
-    background-color: rgb(128, 128, 255);
-  }
-
-  footer {
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    background-color: rgb(180, 80, 50);
-    color: white;
-    text-align: center;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    padding: 2px;
+    background-color: rgb(37, 74, 83);
   }
